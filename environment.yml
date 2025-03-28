@@ -1,0 +1,17 @@
+name: gafs-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - bokeh
+  - matplotlib
+  - numpy
+  - pandas
+  - openpyxl
+  - ipykernel
+  - nbformat>=4.2.0
+  - pip
+  - pip:
+      - plotly
+      - kaleido
